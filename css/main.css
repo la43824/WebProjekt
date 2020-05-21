@@ -1,0 +1,349 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+.nav-area {
+    float: right;
+    width: 100%;
+    position: fixed;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.8);
+ 
+}
+.nav-area a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 32px 30px;   
+    text-decoration: none;
+    font-size: 17px;
+
+}
+.nav-area a:hover{
+    background: #fff;
+    color: black;
+}
+ .LogIn{
+    float: right;
+ }
+.home-banner {
+    height: 90vh;
+    object-fit: cover;
+    background-image: url("../img/books-filtered.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.logo img {
+    width: 90px;
+    float: left;
+    height:auto;
+}
+.welcome-text{
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    margin: 20% 30%;
+    text-align: center;
+    
+}
+.welcome-text h1 {
+    font-size: 28px;
+    width: 600px;
+    height: 100px;
+    color:#ffffff;
+    text-align: center;
+}
+.welcome-text a:hover {
+    background: #fff;
+    color:black;
+}
+.div2{
+    width: 100%;
+    height: 60vh;   
+    margin: 0 ;
+    flex-direction: row;
+}
+.myButton {
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:linear-gradient(to bottom, #ededed 5%, #dfdfdf 100%);
+	background-color:#ededed;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#777777;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #dfdfdf 5%, #ededed 100%);
+	background-color:#dfdfdf;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.bestsellers{
+    width: 90%;
+    margin: auto;
+    font-family: 'Trebuchet MS';
+}
+.box{
+    text-align: center;
+    width: 25%;
+    float: left;
+    margin-bottom: 50px;
+}
+
+.box:last-child{
+    margin-right: 0px;
+}
+
+.box-33{
+    text-align: center;
+    width: 33.33%;
+    float: left;
+}
+
+.box-33:last-child{
+    margin-right: 0px;
+}
+
+.box-33 img{
+    object-fit: cover;
+}
+
+.style{
+  height: 100vh;
+  background-image: url("../img/books-filtered.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.login-page {
+   width: 360px;
+   padding: 10% 0 0;
+   margin: auto;
+}
+.form {
+    position: relative;
+    z-index: 1;
+    background-color: cornsilk;
+    max-width: 0 auto 100px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+}
+.form input {
+    font-family: sans-serif;
+    outline: 1;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+.form button {
+    font-family: sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background-color: crimson;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color:wheat;
+    cursor: pointer;
+}
+.form button:hover,.form button:active {
+    background: crimson;
+}
+.form .message{
+    color: black;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+.form .message a{
+    color: royalblue;
+    text-decoration: none;
+}
+.form .register-form{
+    display: none;
+    
+}
+
+.contact-us{
+    width: 100%;
+    height: 30vh;
+    margin: auto ;
+    background-color:#3d1112;
+    
+}
+.heading-design{
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+    font-family: 'Trebuchet MS';
+}
+.icon-box{
+    width: 33.33%;
+    float: left;
+    text-align: center;
+    margin-top: 50px;
+}
+.icon-box h2{
+    color: white;
+}
+.bestauthors{
+    width: 100%;
+    margin: auto;
+}
+.author{
+    text-align: center;
+    width: 33.33%;
+    float: left;
+    margin-top: 30px;
+    object-fit: cover;
+    
+}
+.last{
+    width: 100%;
+    background-color: darkslategrey;
+    height: 30%;
+    padding-top: 20px;
+
+}
+.container{
+    width: 90%;
+    margin: auto;
+    font-family: 'Trebuchet MS';
+}
+
+.footer-bg{
+    background-color: black;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-family: 'Trebuchet MS';
+    display: inline-block;
+}
+
+.footer-content{
+    text-align: center;
+    width: 40%;
+    margin: auto;
+}
+
+.footer-content a{
+    margin-right: 20px;
+}
+
+.footer-content a:last-child{
+    margin-right: 0px;
+}
+.books-banner{
+    height: 80vh;
+    object-fit: cover;
+    background-image: url("../img/freddie-marriage-w8JiSVyjy-8-unsplash\ \(1\).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.books2{
+    width: 100%;
+    margin: auto;
+}
+.about-banner{
+    height: 80vh;
+    object-fit: cover;
+    background-image: url("../img/about.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about-us{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    text-align: center;
+    font-family: 'Trebuchet MS';
+}
+.heading-design{
+    margin-bottom: 50px;
+    text-align: center;
+    margin-top: 50px;
+    color: #000000;
+    font-family: 'Trebuchet MS';
+}
+
+  .contact-banner{
+    height: 70vh;
+    object-fit: cover;
+    background-image: url("../img/books2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .contact-content{
+    width: 40%;
+    padding-left: 30px;
+}
+.contact{
+    display: flex;
+}
+.contact-info{
+    margin-top: 50px;
+    width: 50%;
+    float: left;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    font-family: 'Trebuchet MS';
+}
+.contact-form{
+    margin-top: 50px;
+    width: 30%;
+    float: right;
+    margin-bottom: 50px;
+    margin-right: 80px;
+    font-family: 'Trebuchet MS';
+    
+}
+input[type=email], select, textarea {
+    width: 100%;
+    padding: 12px; 
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+input[type=number], select, textarea {
+    width: 100%;
+    padding: 12px; 
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+  input[type=submit] {
+    background-color: darkslategray;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  input[type=submit]:hover {
+    background-color: darkslategray;
+  }
+  .container2 {
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding: 20px;
+  }
